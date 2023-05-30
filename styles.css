@@ -1,11 +1,14 @@
 body{
     background-color: rgb(143, 143, 143);
+    text-align: center;
 }
 
 h1{
     text-align: center;
     font-size: xx-large;
     background-color: rgb(168, 255, 128);
+    display: block;
+    margin-top: -5px;
 }
 
 .center{
@@ -15,11 +18,34 @@ h1{
     text-align: center;
 }
 
+.recipe-names{
+    padding: 25px;
+    display: block;
+}
+
 .center.header{
     color: rgb(250, 141, 141);
     font-size: 25px;
+    border: 10px solid;
+    border-color: rgb(163, 111, 111);
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    
+    
+    
 }
 
 .description{
     font-style: italic;
 }
+
+.contact-us{
+    border: 1px solid;
+    display: block;
+    margin-left: 70%;
+    padding-top: 1em;
+    display: inline-block;
+    width: 10em;
+}
+
